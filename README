@@ -1,0 +1,26 @@
+Hi! :)
+
+For Use with Python 3+.
+
+The first scripts are alcoholclean.py and medrentclean.py
+These scripts clean the initial CSVs
+Once you run them you should have 2 new csvs. MedrentC and AlcoholC. 
+
+MedrentC was then manually cleaned and MedrentCleaner (found in same folder as code) will be used for combine.py to combine both cleaned CSVs into combined.csv.
+
+
+combined.csv will be used for the scatter plot generator CombinedScatter.py which will create a scatter plot for the separate areas.
+
+
+Now run AREAS.py that should generate the Greater Area only summary CSV. 
+That will then be used with AreasScatter.py to create the scatter plot for it. 
+
+Finally, the Greater Areas CSVs file contains CSVs for all the greater areas that I made on Excel,
+they are intended for use with Allscatter.py which will be run next and will create scatter plots for all the greater regions.
+You will need to have the CSVs in the same directory as the python script.
+The report with analysis and additional comments is also included in the file.
+
+Thanks for reading :)
+
+KARIM KHAIRAT
+
